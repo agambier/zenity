@@ -106,7 +106,7 @@ func Test_appendButtons(t *testing.T) {
 	}{
 		{name: "OK", opts: options{okLabel: ptr("OK")}, want: []string{"--ok-label", "OK"}},
 		{name: "Cancel", opts: options{cancelLabel: ptr("Cancel")}, want: []string{"--cancel-label", "Cancel"}},
-		{name: "Extra", opts: options{extraButton: ptr("Extra")}, want: []string{"--extra-button", "Extra"}},
+		{name: "Extra", opts: options{extraButton: []string{"Extra"}}, want: []string{"--extra-button", "Extra"}},
 	}
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
