@@ -22,5 +22,5 @@ func progress(opts options) (ProgressDialog, error) {
 	if opts.timeRemaining {
 		args = append(args, "--time-remaining")
 	}
-	return zenutil.RunProgress(opts.ctx, opts.maxValue, opts.extraButton, args)
+	return zenutil.RunProgress(opts.ctx, opts.maxValue, nil, args)
 }

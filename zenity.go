@@ -43,7 +43,7 @@ type options struct {
 	height        uint
 	okLabel       *string
 	cancelLabel   *string
-	extraButton   *string
+	extraButton   []string
 	defaultCancel bool
 	icon          any
 	windowIcon    any
@@ -140,7 +140,7 @@ func CancelLabel(cancel string) Option {
 
 // ExtraButton returns an Option to add one extra button.
 func ExtraButton(extra string) Option {
-	return funcOption(func(o *options) { o.extraButton = &extra })
+	return funcOption(func(o *options) { o.extraButton = append(o.extraButton, extra) })
 }
 
 // DefaultCancel returns an Option to give the Cancel button focus by default.

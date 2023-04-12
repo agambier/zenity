@@ -57,8 +57,8 @@ func appendButtons(args []string, opts options) []string {
 	if opts.cancelLabel != nil {
 		args = append(args, "--cancel-label", *opts.cancelLabel)
 	}
-	if opts.extraButton != nil {
-		args = append(args, "--extra-button", *opts.extraButton)
+	for _, s := range opts.extraButton {
+		args = append(args, "--extra-button", s)
 	}
 	return args
 }
@@ -94,8 +94,12 @@ func strResult(opts options, out []byte, err error) (string, error) {
 	out = bytes.TrimSuffix(out, []byte{'\n'})
 	if eerr, ok := err.(*exec.ExitError); ok {
 		if eerr.ExitCode() == 1 {
-			if opts.extraButton != nil && *opts.extraButton == string(out) {
-				return "", ErrExtraButton
+			if len(opts.extraButton) != 0 {
+				for _, s := range opts.extraButton {
+					if s == string(out) {
+						return "", ErrExtraButton
+					}
+				}
 			}
 			return "", ErrCanceled
 		}
