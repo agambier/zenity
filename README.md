@@ -1,5 +1,8 @@
 # Zenity dialogs for Golang, Windows and macOS
 
+This repo is a fork of [go-zenity](https://github.com/ncruces/zenity) which implements some features of zenity (only those portable on every platform). 
+This fork implements the missing features even i fthey can not be fully supported by each platform.
+
 [![Go Reference](https://pkg.go.dev/badge/image)](https://pkg.go.dev/github.com/ncruces/zenity)
 [![Go Report](https://goreportcard.com/badge/github.com/ncruces/zenity)](https://goreportcard.com/report/github.com/ncruces/zenity)
 [![Go Coverage](https://github.com/ncruces/zenity/wiki/coverage.svg)](https://raw.githack.com/wiki/ncruces/zenity/coverage.html)
