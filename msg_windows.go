@@ -3,7 +3,7 @@ package zenity
 import (
 	"context"
 
-	"github.com/agambier/zenity/internal/win"
+	"github.com/agambier/zenity/v23/internal/win"
 )
 
 func message(kind messageKind, text string, opts options) error {

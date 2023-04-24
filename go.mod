@@ -1,4 +1,4 @@
-module github.com/agambier/zenity
+module github.com/agambier/zenity/v23
 
 go 1.18
 
@@ -11,5 +11,7 @@ require (
 	golang.org/x/image v0.7.0
 	golang.org/x/sys v0.7.0
 )
+
+require github.com/agambier/zenity v0.0.0-20230424102651-00dbb2608e72
 
 require github.com/akavel/rsrc v0.10.2 // indirect

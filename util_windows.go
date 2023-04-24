@@ -13,7 +13,7 @@ import (
 	"syscall"
 	"unsafe"
 
-	"github.com/agambier/zenity/internal/win"
+	"github.com/agambier/zenity/v23/internal/win"
 )
 
 const (

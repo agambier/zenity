@@ -5,7 +5,7 @@ package win
 import (
 	"fmt"
 
-	"github.com/agambier/zenity/internal/zenutil"
+	"github.com/agambier/zenity/v23/internal/zenutil"
 )
 
 const (

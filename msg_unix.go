@@ -2,7 +2,7 @@
 
 package zenity
 
-import "github.com/agambier/zenity/internal/zenutil"
+import "github.com/agambier/zenity/v23/internal/zenutil"
 
 func message(kind messageKind, text string, opts options) error {
 	args := []string{"--text", text, "--no-markup"}

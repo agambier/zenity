@@ -5,7 +5,7 @@ import (
 	"time"
 	"unsafe"
 
-	"github.com/agambier/zenity/internal/win"
+	"github.com/agambier/zenity/v23/internal/win"
 )
 
 func calendar(text string, opts options) (time.Time, error) {

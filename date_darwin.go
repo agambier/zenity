@@ -3,7 +3,7 @@ package zenity
 import (
 	"time"
 
-	"github.com/agambier/zenity/internal/zenutil"
+	"github.com/agambier/zenity/v23/internal/zenutil"
 )
 
 func calendar(text string, opts options) (t time.Time, err error) {

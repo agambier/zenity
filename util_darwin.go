@@ -1,6 +1,6 @@
 package zenity
 
-import "github.com/agambier/zenity/internal/zenutil"
+import "github.com/agambier/zenity/v23/internal/zenutil"
 
 func getButtons(dialog, okcancel bool, opts options) (btns zenutil.DialogButtons) {
 	if !okcancel {

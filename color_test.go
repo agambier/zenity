@@ -9,8 +9,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/agambier/zenity"
-	"github.com/agambier/zenity/internal/zenutil"
+	"github.com/agambier/zenity/v23"
+	"github.com/agambier/zenity/v23/internal/zenutil"
 	"go.uber.org/goleak"
 )
 

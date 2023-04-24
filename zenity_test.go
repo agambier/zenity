@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/agambier/zenity/internal/zencmd"
+	"github.com/agambier/zenity/v23/internal/zencmd"
 )
 
 func Test_applyOptions(t *testing.T) {

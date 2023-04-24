@@ -2,7 +2,7 @@
 
 package zenity
 
-import "github.com/agambier/zenity/internal/zenutil"
+import "github.com/agambier/zenity/v23/internal/zenutil"
 
 func list(text string, items []string, opts options) (string, error) {
 	args := []string{"--list", "--hide-header", "--text", text}

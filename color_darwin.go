@@ -3,7 +3,7 @@ package zenity
 import (
 	"image/color"
 
-	"github.com/agambier/zenity/internal/zenutil"
+	"github.com/agambier/zenity/v23/internal/zenutil"
 )
 
 func selectColor(opts options) (color.Color, error) {

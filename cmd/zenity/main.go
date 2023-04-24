@@ -19,9 +19,9 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/agambier/zenity"
-	"github.com/agambier/zenity/internal/zencmd"
-	"github.com/agambier/zenity/internal/zenutil"
+	"github.com/agambier/zenity/v23"
+	"github.com/agambier/zenity/v23/internal/zencmd"
+	"github.com/agambier/zenity/v23/internal/zenutil"
 	"github.com/ncruces/go-strftime"
 )
 
@@ -319,7 +319,7 @@ func parseFlags() []string {
 func validateFlags() {
 	if version {
 		fmt.Printf("zenity %s %s/%s\n", getVersion(), runtime.GOOS, runtime.GOARCH)
-		fmt.Println("https://github.com/agambier/zenity")
+		fmt.Println("https://github.com/agambier/zenity/v23")
 		os.Exit(0)
 	}
 

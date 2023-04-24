@@ -3,7 +3,7 @@ package zenity
 import (
 	"os"
 
-	"github.com/agambier/zenity/internal/zenutil"
+	"github.com/agambier/zenity/v23/internal/zenutil"
 )
 
 func password(opts options) (string, string, error) {

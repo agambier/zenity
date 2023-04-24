@@ -7,7 +7,7 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/agambier/zenity/internal/zenutil"
+	"github.com/agambier/zenity/v23/internal/zenutil"
 )
 
 func Test_quoteAccelerators(t *testing.T) {
