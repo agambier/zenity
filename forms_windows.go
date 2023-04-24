@@ -4,7 +4,7 @@ import (
 	"syscall"
 	"unsafe"
 
-	"github.com/ncruces/zenity/internal/win"
+	"github.com/agambier/zenity/internal/win"
 )
 
 func forms(text string, opts options) ([]string, error) {

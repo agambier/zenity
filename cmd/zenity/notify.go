@@ -8,9 +8,9 @@ import (
 	"os"
 	"strings"
 
-	"github.com/ncruces/zenity"
-	"github.com/ncruces/zenity/internal/zencmd"
-	"github.com/ncruces/zenity/internal/zenutil"
+	"github.com/agambier/zenity"
+	"github.com/agambier/zenity/internal/zencmd"
+	"github.com/agambier/zenity/internal/zenutil"
 )
 
 func notify(opts ...zenity.Option) error {

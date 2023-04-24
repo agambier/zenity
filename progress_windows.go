@@ -6,7 +6,7 @@ import (
 	"syscall"
 	"unsafe"
 
-	"github.com/ncruces/zenity/internal/win"
+	"github.com/agambier/zenity/internal/win"
 )
 
 func progress(opts options) (ProgressDialog, error) {

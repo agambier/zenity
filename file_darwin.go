@@ -1,6 +1,6 @@
 package zenity
 
-import "github.com/ncruces/zenity/internal/zenutil"
+import "github.com/agambier/zenity/internal/zenutil"
 
 func selectFile(opts options) (string, error) {
 	var data zenutil.File

@@ -7,8 +7,8 @@ import (
 	"time"
 	"unsafe"
 
-	"github.com/ncruces/zenity/internal/win"
-	"github.com/ncruces/zenity/internal/zenutil"
+	"github.com/agambier/zenity/internal/win"
+	"github.com/agambier/zenity/internal/zenutil"
 )
 
 func notify(text string, opts options) error {

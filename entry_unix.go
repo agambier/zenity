@@ -2,7 +2,7 @@
 
 package zenity
 
-import "github.com/ncruces/zenity/internal/zenutil"
+import "github.com/agambier/zenity/internal/zenutil"
 
 func entry(text string, opts options) (string, error) {
 	args := []string{"--entry", "--text", quoteMnemonics(text)}

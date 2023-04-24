@@ -3,7 +3,7 @@ package zenity
 import (
 	"reflect"
 
-	"github.com/ncruces/zenity/internal/win"
+	"github.com/agambier/zenity/internal/win"
 )
 
 func isAvailable() bool { return true }

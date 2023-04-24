@@ -3,7 +3,7 @@ package zenity
 import (
 	"fmt"
 
-	"github.com/ncruces/zenity/internal/zenutil"
+	"github.com/agambier/zenity/internal/zenutil"
 )
 
 func progress(opts options) (ProgressDialog, error) {

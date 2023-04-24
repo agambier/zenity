@@ -5,7 +5,7 @@ package zenity
 import (
 	"image/color"
 
-	"github.com/ncruces/zenity/internal/zenutil"
+	"github.com/agambier/zenity/internal/zenutil"
 )
 
 func selectColor(opts options) (color.Color, error) {

@@ -8,7 +8,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ncruces/zenity"
+	"github.com/agambier/zenity"
 	"go.uber.org/goleak"
 )
 

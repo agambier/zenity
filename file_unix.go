@@ -5,7 +5,7 @@ package zenity
 import (
 	"strings"
 
-	"github.com/ncruces/zenity/internal/zenutil"
+	"github.com/agambier/zenity/internal/zenutil"
 )
 
 func selectFile(opts options) (string, error) {

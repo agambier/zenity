@@ -1,4 +1,4 @@
-module github.com/ncruces/zenity
+module github.com/agambier/zenity
 
 go 1.18
 
